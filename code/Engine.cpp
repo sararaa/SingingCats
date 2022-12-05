@@ -38,7 +38,7 @@ Engine::Engine()
 	}
 
 	m_BackgroundTexture = TextureHolder::GetTexture(
-		"catbackstage/background.png");
+		"graphics/catbackstage.png");
 
 	// Associate the sprite with the texture
 	m_BackgroundSprite.setTexture(m_BackgroundTexture);
